@@ -4,8 +4,8 @@ export const vehicleCategories = {
     description: "Advanced solutions for maximizing comfort and safety",
     views: [
       {
-        id: "exterior",
-        title: "Exterior",
+        id: "complete-body",
+        title: "Complete Body",
         image: "/Passenger Alpha 1.png",
         placeholder: "/Passenger Alpha 1-placeholder.jpg",
         description: "Aerodynamic body with premium finishes",
@@ -26,14 +26,38 @@ export const vehicleCategories = {
         ],
       },
       {
-        id: "safety",
-        title: "Safety",
+        id: "exterior",
+        title: "Exterior",
         image: "/Exterior.png",
         placeholder: "/Exterior-placeholder.jpg",
-        description: "Advanced structural components for protection",
+        description:
+          "Advanced structural components for enhanced safety and protection",
         stats: [
           { label: "Impact Absorption", value: "95%" },
           { label: "Fire Resistance", value: "1200°C" },
+        ],
+      },
+      {
+        id: "front",
+        title: "Front",
+        image: "/Front.png",
+        placeholder: "/Front-placeholder.jpg",
+        description: "Optimized front design for improved fuel economy",
+        stats: [
+          { label: "Fuel Savings", value: "15%" },
+          { label: "CO2 Reduction", value: "20%" },
+        ],
+      },
+      {
+        id: "trunk",
+        title: "Trunk",
+        image: "/Trunk.png",
+        placeholder: "/Trunk-placeholder.jpg",
+        description:
+          "Integrated smart trunk systems for better storage and connectivity",
+        stats: [
+          { label: "Connectivity", value: "5G" },
+          { label: "Autonomous Level", value: "L2" },
         ],
       },
     ],
@@ -47,32 +71,10 @@ export const vehicleCategories = {
         title: "Durability",
         image: "/Commercial 3.png",
         placeholder: "/Commercial 3-placeholder.jpg",
-        description: "Engineered for long-haul performance",
+        description: "Advancing nonwoven engineering for heavy-duty vehicles",
         stats: [
           { label: "Load Capacity", value: "25T" },
           { label: "Service Life", value: "1M km" },
-        ],
-      },
-      {
-        id: "efficiency",
-        title: "Efficiency",
-        image: "/Front.png",
-        placeholder: "/Front-placeholder.jpg",
-        description: "Optimized for fuel economy",
-        stats: [
-          { label: "Fuel Savings", value: "15%" },
-          { label: "CO2 Reduction", value: "20%" },
-        ],
-      },
-      {
-        id: "technology",
-        title: "Technology",
-        image: "/Trunk.png",
-        placeholder: "/Trunk-placeholder.jpg",
-        description: "Integrated smart systems",
-        stats: [
-          { label: "Connectivity", value: "5G" },
-          { label: "Autonomous Level", value: "L2" },
         ],
       },
     ],

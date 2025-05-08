@@ -27,16 +27,7 @@ This project is a modern, responsive, and animated website built for **Supreme G
 
 ---
 
-## 📁 Folder Structure
-```bash
-src/
-│
-├── assets/ # Static assets like images, logos
-├── components/ # Reusable components (e.g., Header, Footer, ContactForm)
-├── pages/ # Page components (Home, About, etc.)
-├── App.jsx # Main App component
-└── main.jsx # Entry point
-```bash
+
 
 ## **Getting Started**
 
